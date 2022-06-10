@@ -7,6 +7,18 @@ let thirdOpt = ''
 let fourthOpt = ''
 let passLength = 10
 
+let passVal_1 = document.getElementById("first-option")
+let passVal_2 = document.getElementById("second-option")
+let passVal_3 = document.getElementById("third-option")
+let passVal_4 = document.getElementById("fourth-option")
+
+function passShow(){
+    passGen()
+    passVal_1.innerText = firstOpt
+    passVal_2.innerText = secondOpt
+    passVal_3.innerText = thirdOpt
+    passVal_4.innerText = fourthOpt
+}
 function passGen(){
     for (let i = 0; i < passLength; i++)
     {
@@ -15,6 +27,7 @@ function passGen(){
         thirdOpt += allChars[Math.floor(Math.random() * allChars.length) + 1]
         fourthOpt += allChars[Math.floor(Math.random() * allChars.length) + 1]
     }
+    
 }
 passGen()
 console.log(firstOpt, secondOpt, thirdOpt, fourthOpt)
