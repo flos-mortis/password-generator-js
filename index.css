@@ -26,15 +26,20 @@ h1:last-child{
 .top-content p{
     color: #ababab;
 }
-#gen-button{
-    background-color: #4cbf77;
-    color: white;
+.btn{
     font-size: 15px;
     border: none;
     border-radius: 4px;
-    width: 200px;
+    width: 40%;
     height: 40px;
+}
+#gen-button{
+    background-color: #4cbf77;
+    color: white;
     margin-top: 50px;
+}
+#length-input{
+    padding: 10px;
 }
 .bottom-content{
     border-top: 2px solid #31485a;
@@ -58,6 +63,7 @@ h1:last-child{
     margin-top: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
+    min-height: 20px;
 }
 .bottom-content p{
     font-size: 20px;
