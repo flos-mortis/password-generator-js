@@ -38,6 +38,9 @@ h1:last-child{
     color: white;
     margin-top: 50px;
 }
+#gen-button:focus, #gen-button:hover{
+    cursor: pointer;
+}
 #length-input{
     padding: 10px;
 }
@@ -61,9 +64,9 @@ h1:last-child{
     width: 100%;
     text-align: center;
     margin-top: 25px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
     min-height: 20px;
+    word-wrap: break-word;
 }
 .bottom-content p{
     font-size: 20px;
